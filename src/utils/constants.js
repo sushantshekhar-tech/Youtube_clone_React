@@ -34,9 +34,9 @@ export const categories = [
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
 
-export const demoThumbnailUrl = 'https://i9.ytimg.com/vi/uztQViSxOkA/mqdefault.jpg?v=61288f3b&sqp=CNilrK8G&rs=AOn4CLC0RjsqkZnwd7rLziQhryH_QVGehA';
-export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
-export const demoVideoUrl = '/video/GDa8kZLNhJ4';
+export const demoThumbnailUrl = 'https://yt3.googleusercontent.com/ytc/AIdro_k9TujohwJBGAe45usRdh_6bgVEwM7kEyEPg-wH2w=s176-c-k-c0x00ffffff-no-rj';
+export const demoChannelUrl = 'www.youtube.com/@creativityunleashed5669';
+export const demoVideoUrl = 'https://youtu.be/uztQViSxOkA?si=QelDql2xsG-yPFzl';
 export const demoChannelTitle = 'Creativity Unleashed';
 export const demoVideoTitle = 'Build Tesla Coil at Home';
 export const demoProfilePicture = 'https://yt3.googleusercontent.com/ytc/AIdro_k9TujohwJBGAe45usRdh_6bgVEwM7kEyEPg-wH2w=s176-c-k-c0x00ffffff-no-rj'

@@ -11,6 +11,8 @@ const SideBar = ({selectedCategory,setSelectedCategory}) =>
         {categories.map((category)=>(
             <button className='category-btn'
             // onClick={()=>{console.log("clicked")}}
+
+            // Here we the changing the name of the selected button and displaying it by useState hook when the button is clicked
             onClick={()=>setSelectedCategory(category.name)}
             style={{background: category.name === selectedCategory && '#FC1503', color:'white'}}
             key={category.name}

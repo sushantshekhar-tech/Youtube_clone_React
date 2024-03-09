@@ -19,10 +19,10 @@ try {
 } catch (error) {
 	console.error(error);
 }
-
+//here we are destructuring the response that we are getting from the response so we are writing {data} instead of response = await ...| we cannot directly return response.data as it will not be an array
 export const fetchFromAPI  = async(url)=>{
-const response=await axios.get(`${BASE_URL}/${url}` , options)
+const {data}=await axios.get(`${BASE_URL}/${url}` , options)
 
-return response.data
+return data
 
 }
