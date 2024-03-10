@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { demoProfilePicture } from '../utils/constants'
 const ChannelCard = ({channelDetail}) =>
 (
-    <Box sx={{boxShadow:'none', borderRadius:'20px'}}>
+    <Box sx={{boxShadow:'none', borderRadius:'20px',display:'flex', justifyContent:'center',alignItems:'center',width:{xs:'356px',md:'320px'},height:'326px',margin:'auto'}}>
 <Link to={`/channel/${channelDetail?.id?.channelId}`} >
   <CardContent sx={{display:'flex' ,flexDirection:'column', justifyContent:'center',textAlign:'center',color:'#FFF'}}>
     <CardMedia 
@@ -17,6 +17,12 @@ const ChannelCard = ({channelDetail}) =>
       {channelDetail?.snippet?.title}
       <CheckCircle sx={{ fontSize: "25px", color: "gray", ml: "5px" }} />
     </Typography>
+    {channelDetail?.statistics?.subscriberCount &&(
+
+      <Typography>
+        {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString()} Subscriber
+      </Typography>
+    )}
 
   </CardContent>
 </Link>

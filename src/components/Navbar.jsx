@@ -21,7 +21,7 @@ const Navbar = () => (
     <Link to="/" style={{display: 'flex', alignItems:'center'}}>
       <img src={logo} alt='logo' height={45}></img>
       <Typography p={3} variant="subtitle1" fontSize={35} fontWeight='bold' color='#FFF'>
-YOUTUBE CLONE
+YOUTUBE CLONE BY SUSHANT
       </Typography>
   
     </Link>
