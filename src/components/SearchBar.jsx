@@ -11,6 +11,7 @@ const navigate =useNavigate()
   const handleSubmit =(e)=>{
 e.preventDefault()
 if(searchTerm){
+  //here use navigate is used to navigate the searchTerm from this page to App.js
   navigate(`/search/${searchTerm}`)
   setSearchTerm('')
   }
